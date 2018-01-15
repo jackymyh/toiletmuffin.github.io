@@ -10,7 +10,7 @@ body, html{
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
-  opacity:0.75;
+  opacity:0.85;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -18,7 +18,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/image1.jpeg');
+  background-image:url('../img/image1-2.jpeg');
   min-height:100%;
 }
 
@@ -64,6 +64,14 @@ body, html{
   padding:20px;
 }
 
+#name{
+  padding-right:2px;
+}
+
+#title{
+  padding-right:12px;
+}
+
 .ptext .border.trans{
   background-color:transparent;
 }
@@ -74,15 +82,15 @@ body, html{
 }
 
 canvas {
-  display: block;
-  vertical-align: bottom;
+  display:block;
+  vertical-align:bottom;
 }
 
 #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
 }
 
 @media(max-width:780px){
