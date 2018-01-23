@@ -10,7 +10,7 @@ body, html{
 
 .navbar{
   background-color:#282e34;
-  opacity:0.95;
+  opacity:0.8;
 }
 
 /*.navbar:hover{
@@ -76,11 +76,17 @@ body, html{
 #name{
   color:#fff;
   background-color:#111;
+  border: solid #fff;
+  border-width: 1px;
+  line-height:1.5em;
 }
 
 #title{
   color:#111;
   background-color:#fff;
+  border: solid #111;
+  border-width: 1px;
+  line-height:1.5em;
 }
 
 #intro{
@@ -109,8 +115,5 @@ body, html{
 @media(max-width:780px){
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
-  }
-  .ptext{
-    line-height:2.6em;
   }
 }
