@@ -93,7 +93,40 @@ body, html{
   text-transform:uppercase;
   letter-spacing:8px;
   text-align:center;
-  padding-top:20em;
+}
+
+.header{
+  text-transform:uppercase;
+  letter-spacing:8px;
+  text-align:center;
+  margin-bottom:1em;
+}
+
+.icon{
+  height:50px;
+  width:auto;
+}
+
+.contact-icon{
+  height:20px;
+  width:auto;
+}
+
+.carousel-item{
+  height:200px;
+  width:auto;
+}
+
+.list-group .list-group-item{
+  background-color:transparent;
+  border:none;
+}
+
+.center{
+  position:absolute;
+  top:40%;
+  left:33%;
+  right:33%;
 }
 
 .ptext .border.trans{
