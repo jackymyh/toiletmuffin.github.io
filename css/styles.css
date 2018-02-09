@@ -13,9 +13,9 @@ body, html{
   opacity:0.8;
 }
 
-/*.navbar:hover{
-  opacity:0.8;
-}*/
+/* .navbar:hover{
+  opacity:0.85;
+} */
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
@@ -27,7 +27,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/image1-2.jpeg');
+  background-image:url('../img/image1.jpeg');
   min-height:100%;
 }
 
@@ -105,11 +105,13 @@ body, html{
 .icon{
   height:50px;
   width:auto;
+  padding:2px;
 }
 
 .contact-icon{
   height:20px;
   width:auto;
+  padding:2px;
 }
 
 .carousel-item{
@@ -136,6 +138,14 @@ body, html{
 .ptext .border.white{
   color:#000;
   background-color:#f4f4f4;
+}
+
+#skillset h3{
+  padding-top:40px;
+}
+
+#skillset .container{
+  padding-bottom:30px;
 }
 
 #particles-js{
