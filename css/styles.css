@@ -70,6 +70,8 @@ body, html{
 .ptext .border{
   background-color:#111;
   color:#fff;
+  border: solid #fff !important;
+  border-width: 1px !important;
   padding:20px;
 }
 
@@ -131,13 +133,15 @@ body, html{
   right:5%;
 }
 
-.ptext .border.trans{
+/* .ptext .border.trans{
   background-color:transparent;
-}
+} */
 
 .ptext .border.white{
   color:#000;
   background-color:#f4f4f4;
+  border: solid #000 !important;
+  border-width: 1px !important;
 }
 
 #skillset h3{
@@ -158,12 +162,5 @@ body, html{
 @media(max-width:780px){
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
-  }
-
-  .center{
-    position:absolute;
-    top:40%;
-    left:5%;
-    right:5%;
   }
 }
