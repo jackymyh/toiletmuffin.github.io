@@ -144,6 +144,18 @@ body, html{
   border-width: 1px !important;
 }
 
+.modal.show{
+  display:flex !important;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+  align-items: flex-start;
+}
+
+.modal-dialog{
+  max-width:80em !important;
+}
+
 #skillset h3{
   padding-top:40px;
 }
