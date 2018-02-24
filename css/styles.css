@@ -144,6 +144,10 @@ body, html{
   border-width: 1px !important;
 }
 
+.card-img-top{
+  height:200px;
+}
+
 .modal.show{
   display:flex !important;
   flex-direction:column;
