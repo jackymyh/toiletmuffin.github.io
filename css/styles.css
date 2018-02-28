@@ -160,6 +160,10 @@ body, html{
   max-width:90em !important;
 }
 
+.card{
+  margin:1em;
+}
+
 #skillset h3{
   padding-top:40px;
 }
