@@ -161,7 +161,8 @@ body, html{
 }
 
 .card{
-  margin:1em;
+  margin-top:0.5em;
+  margin-bottom:0.5em;
 }
 
 #skillset h3{
