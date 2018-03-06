@@ -238,11 +238,22 @@
 
           <div class="col-lg-4">
             <div class="card">
-              <img class="card-img-top" src="./img/image1.jpeg" alt="Card image cap">
+              <a href=# data-toggle="modal" data-target="#tabModal">
+                <img class="card-img-top" src="./img/tab.png" alt="Tab Tracker">
+              </a>
               <div class="card-body">
                 <h5 class="card-title">Guitar Tab Tracker</h5>
                 <p class="card-text">Learning and built with Vue.js.</p>
                 <a href="https://github.com/toiletmuffin/tab_tracker" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Tracker Modal -->
+          <div class="modal fade" id="tabModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <img class="card-img" src="./img/tab.png" alt="Tab Tracker">
               </div>
             </div>
           </div>

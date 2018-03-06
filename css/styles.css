@@ -184,4 +184,10 @@ body, html{
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
   }
+
+  section{
+    padding:1em !important;
+    padding-top:2em !important;
+    padding-bottom:2em !important;
+  }
 }
