@@ -8,6 +8,10 @@ body, html{
   color:#666;
 }
 
+p{
+  font-size:18px;
+}
+
 .navbar{
   background-color:#282e34;
   opacity:0.8;
@@ -140,9 +144,15 @@ body, html{
 .ptext .border.white{
   color:#000;
   background-color:#f4f4f4;
-  border: solid #000 !important;
-  border-width: 1px !important;
+  border:solid #000 !important;
+  border-width:1px !important;
 }
+
+#greetings{
+  padding-top:1em;
+  padding-bottom:1.5em;
+}
+
 
 .card-img-top{
   height:200px;
@@ -153,7 +163,7 @@ body, html{
   flex-direction:column;
   justify-content:center;
   align-content:center;
-  align-items: flex-start;
+  align-items:flex-start;
 }
 
 .modal-dialog{
