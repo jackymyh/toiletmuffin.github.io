@@ -33,5 +33,5 @@ if (hrs < 5) {
 
 
 $(document).ready(function() {
-	$('#greetings').html('<b>' + greet + ' and welcome to my porfolio page!</b>');
+	$('#greetings').html('<b>' + greet + ' and welcome to my portfolio page!</b>');
 });
